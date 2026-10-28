@@ -1,0 +1,6 @@
+{
+  "id": "chrome",
+  "version": "1.0.0",
+  "name": "Chrome",
+  "capAdd": ["SYS_ADMIN"]
+}
