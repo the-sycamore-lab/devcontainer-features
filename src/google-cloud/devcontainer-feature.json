@@ -1,0 +1,8 @@
+{
+  "id": "google-cloud",
+  "version": "1.0.0",
+  "name": "Google Cloud CLI",
+  "description": "Installs the Google Cloud CLI (gcloud) from Google's apt repository.",
+  "documentationURL": "https://github.com/the-sycamore-lab/devcontainer-features/tree/main/src/google-cloud",
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

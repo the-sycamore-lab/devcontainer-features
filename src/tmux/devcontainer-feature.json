@@ -1,0 +1,8 @@
+{
+  "id": "tmux",
+  "version": "1.0.0",
+  "name": "Tmux",
+  "description": "Installs tmux.",
+  "documentationURL": "https://github.com/the-sycamore-lab/devcontainer-features/tree/main/src/tmux",
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

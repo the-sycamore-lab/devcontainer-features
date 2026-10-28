@@ -1,6 +1,6 @@
 {
   "id": "chrome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Chrome",
   "description": "Installs Google Chrome (stable) and common fonts for headless browser use.",
   "documentationURL": "https://github.com/the-sycamore-lab/devcontainer-features/tree/main/src/chrome",

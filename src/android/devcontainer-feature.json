@@ -1,0 +1,16 @@
+{
+  "id": "android",
+  "version": "1.0.0",
+  "name": "Android SDK",
+  "description": "Installs the Android SDK (platform-tools, build-tools 35.0.0, android-35 platform) via sdkmanager.",
+  "documentationURL": "https://github.com/the-sycamore-lab/devcontainer-features/tree/main/src/android",
+  "containerEnv": {
+    "ANDROID_HOME": "/opt/android-sdk",
+    "ANDROID_SDK_ROOT": "/opt/android-sdk",
+    "PATH": "${PATH}:/opt/android-sdk/platform-tools:/opt/android-sdk/build-tools/35.0.0"
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/java"
+  ]
+}
